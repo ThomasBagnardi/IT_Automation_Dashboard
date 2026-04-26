@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{54321985-b78f-4ed2-aabf-1e25c93ebe3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\app">
+      <UniqueIdentifier>{f196bcb9-2e41-4f0e-9399-4dbfc1f68f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\routes">
+      <UniqueIdentifier>{8af8b6d5-93a6-453f-bece-f0e10c793772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend">
+      <UniqueIdentifier>{dee00a08-3738-4edf-aa37-71a181a916b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\src">
+      <UniqueIdentifier>{a8ebc759-4553-4645-87e6-1044f36d8d85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.py">
+      <Filter>backend\app</Filter>
+    </None>
+    <None Include="models.py">
+      <Filter>backend\app</Filter>
+    </None>
+    <None Include="database.py">
+      <Filter>backend\app</Filter>
+    </None>
+    <None Include="devices.py">
+      <Filter>backend\routes</Filter>
+    </None>
+    <None Include="scripts.py">
+      <Filter>backend\routes</Filter>
+    </None>
+    <None Include="auth.py">
+      <Filter>backend\routes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
